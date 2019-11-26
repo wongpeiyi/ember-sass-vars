@@ -3,7 +3,7 @@
 'use strict';
 
 const Filter = require('broccoli-persistent-filter');
-const sass = require('node-sass');
+const sass = require('sass');
 
 function SassModule(inputTree, options = {}) {
   if (!(this instanceof SassModule)) {
